@@ -20,45 +20,45 @@ class ViewController: UIViewController {
     @IBOutlet weak var winnerLabel: UILabel!
     @IBOutlet weak var gameOverView: UIView!
     
-    @IBAction func buttonPressed(sender: AnyObject) {
+    @IBAction func buttonPressed(_ sender: AnyObject) {
         
         let state = gameState[sender.tag]
         
         if (state == 0) {
             
-            moves++;
+            moves += 1;
             gameState[sender.tag] = player
             
             if player == 1 {
-                sender.setImage(UIImage(named: "nought.png"), forState: .Normal)
+                sender.setImage(UIImage(named: "nought.png"), for: UIControlState())
                 checkWinning()
                 player = 2
             } else {
-                sender.setImage(UIImage(named: "cross.png"), forState: .Normal)
+                sender.setImage(UIImage(named: "cross.png"), for: UIControlState())
                 checkWinning()
                 player = 1
             }
         }
     }
     
-    @IBAction func restartGame(sender: AnyObject) {
+    @IBAction func restartGame(_ sender: AnyObject) {
         
         player = 1
         moves = 0;
         gameState = [0,0,0,0,0,0,0,0,0]
         
         var buttonToClear : UIButton
-        for var i=0; i<9; i++ {
+        for i in 0 ..< 9 {
             buttonToClear = view.viewWithTag(i) as! UIButton
-            buttonToClear.setImage(nil, forState: .Normal)
+            buttonToClear.setImage(nil, for: UIControlState())
         }
         
-        UIView.animateWithDuration(1, animations: { () -> Void in
+        UIView.animate(withDuration: 1, animations: { () -> Void in
             
-            self.gameOverView.center = CGPointMake(self.gameOverView.center.x, self.gameOverView.center.y*4)
+            self.gameOverView.center = CGPoint(x: self.gameOverView.center.x, y: self.gameOverView.center.y*4)
         })
         
-        gameOverView.hidden = true;
+        gameOverView.isHidden = true;
     }
     
     func checkWinning() {
@@ -86,22 +86,22 @@ class ViewController: UIViewController {
         }
     }
     
-    func endGame(message: String) {
+    func endGame(_ message: String) {
         
         winnerLabel.text = message
-        gameOverView.hidden = false;
+        gameOverView.isHidden = false;
         
-        UIView.animateWithDuration(1, animations: { () -> Void in
+        UIView.animate(withDuration: 1, animations: { () -> Void in
             
-            self.gameOverView.center = CGPointMake(self.gameOverView.center.x, self.gameOverView.center.y/4)
+            self.gameOverView.center = CGPoint(x: self.gameOverView.center.x, y: self.gameOverView.center.y/4)
         })
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        gameOverView.hidden = true;
-        gameOverView.center = CGPointMake(gameOverView.center.x, gameOverView.center.y*4)
+        gameOverView.isHidden = true;
+        gameOverView.center = CGPoint(x: gameOverView.center.x, y: gameOverView.center.y*4)
     }
 
     override func didReceiveMemoryWarning() {
