@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0291B174F88E57EED713DD61 /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52908D0C12FD6FA888938B0B /* BuddyBuildSDK.framework */; };
 		0CD1E34C1CB008E700887B41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD1E34B1CB008E700887B41 /* AppDelegate.swift */; };
 		0CD1E34E1CB008E700887B41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD1E34D1CB008E700887B41 /* ViewController.swift */; };
 		0CD1E3511CB008E700887B41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CD1E34F1CB008E700887B41 /* Main.storyboard */; };
@@ -17,6 +18,14 @@
 		0CD1E37C1CB0096500887B41 /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CD1E3791CB0096400887B41 /* board.png */; };
 		0CD1E37D1CB0096500887B41 /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CD1E37A1CB0096500887B41 /* cross.png */; };
 		0CD1E37E1CB0096500887B41 /* nought.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CD1E37B1CB0096500887B41 /* nought.png */; };
+		2C650479B9CEE3935FBA4B4E /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 948BA288147F57FE07B61387 /* CoreTelephony.framework */; };
+		320DEA691F0C3DC9C7962DD6 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EE535FBAA73670BEDC9480B /* AssetsLibrary.framework */; };
+		6E02C7F9BBBFE6720CFED163 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF5854484A0B66FD261666C5 /* QuartzCore.framework */; };
+		C0B064810D82FDF6ED41316F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C8C1106653D0B7DB952556C /* AVFoundation.framework */; };
+		C3AFB8B70BA6D00DCE3FBBF1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E357B5E2F1E6BAC565CD914 /* SystemConfiguration.framework */; };
+		C4E9F245CA5822E99021DEED /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D26F67F66E197F49BFCB7F1 /* CoreMedia.framework */; };
+		CB4AC6751AF8F418868F0ED4 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29EA1BBEA7A9AB5ACC6A8C88 /* CoreVideo.framework */; };
+		FC8525A5664B507F79182810 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22FAFA3C2BAF1EF608702A90 /* CoreText.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C8C1106653D0B7DB952556C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		0CD1E3481CB008E700887B41 /* TicTacToe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicTacToe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CD1E34B1CB008E700887B41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CD1E34D1CB008E700887B41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +63,15 @@
 		0CD1E3791CB0096400887B41 /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
 		0CD1E37A1CB0096500887B41 /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
 		0CD1E37B1CB0096500887B41 /* nought.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nought.png; sourceTree = "<group>"; };
+		22FAFA3C2BAF1EF608702A90 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		29EA1BBEA7A9AB5ACC6A8C88 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		3EE535FBAA73670BEDC9480B /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		52908D0C12FD6FA888938B0B /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
+		7D26F67F66E197F49BFCB7F1 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		948BA288147F57FE07B61387 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		9E357B5E2F1E6BAC565CD914 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CC93FA711072041EC684AA68 /* Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		EF5854484A0B66FD261666C5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +79,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0291B174F88E57EED713DD61 /* BuddyBuildSDK.framework in Frameworks */,
+				320DEA691F0C3DC9C7962DD6 /* AssetsLibrary.framework in Frameworks */,
+				FC8525A5664B507F79182810 /* CoreText.framework in Frameworks */,
+				2C650479B9CEE3935FBA4B4E /* CoreTelephony.framework in Frameworks */,
+				C3AFB8B70BA6D00DCE3FBBF1 /* SystemConfiguration.framework in Frameworks */,
+				6E02C7F9BBBFE6720CFED163 /* QuartzCore.framework in Frameworks */,
+				C0B064810D82FDF6ED41316F /* AVFoundation.framework in Frameworks */,
+				C4E9F245CA5822E99021DEED /* CoreMedia.framework in Frameworks */,
+				CB4AC6751AF8F418868F0ED4 /* CoreVideo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +115,8 @@
 				0CD1E35F1CB008E700887B41 /* TicTacToeTests */,
 				0CD1E36A1CB008E700887B41 /* TicTacToeUITests */,
 				0CD1E3491CB008E700887B41 /* Products */,
+				D4D280EC88188050BB4632D6 /* Frameworks */,
+				CC93FA711072041EC684AA68 /* Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +162,22 @@
 				0CD1E36D1CB008E700887B41 /* Info.plist */,
 			);
 			path = TicTacToeUITests;
+			sourceTree = "<group>";
+		};
+		D4D280EC88188050BB4632D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52908D0C12FD6FA888938B0B /* BuddyBuildSDK.framework */,
+				3EE535FBAA73670BEDC9480B /* AssetsLibrary.framework */,
+				22FAFA3C2BAF1EF608702A90 /* CoreText.framework */,
+				948BA288147F57FE07B61387 /* CoreTelephony.framework */,
+				9E357B5E2F1E6BAC565CD914 /* SystemConfiguration.framework */,
+				EF5854484A0B66FD261666C5 /* QuartzCore.framework */,
+				0C8C1106653D0B7DB952556C /* AVFoundation.framework */,
+				7D26F67F66E197F49BFCB7F1 /* CoreMedia.framework */,
+				29EA1BBEA7A9AB5ACC6A8C88 /* CoreVideo.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -418,10 +464,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = X9N22WQKJN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = TicTacToe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.tictactoe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -432,10 +483,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = X9N22WQKJN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = TicTacToe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.tictactoe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
