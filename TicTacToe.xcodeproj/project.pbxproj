@@ -420,7 +420,7 @@
 				DEVELOPMENT_TEAM = X9N22WQKJN;
 				INFOPLIST_FILE = TicTacToe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = O;
+				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.tictactoe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -434,7 +434,7 @@
 				DEVELOPMENT_TEAM = X9N22WQKJN;
 				INFOPLIST_FILE = TicTacToe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = O;
+				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.tictactoe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
