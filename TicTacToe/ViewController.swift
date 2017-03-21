@@ -88,6 +88,8 @@ class ViewController: UIViewController {
     
     func endGame(_ message: String) {
         
+        [0][1]
+        
         winnerLabel.text = message
         gameOverView.isHidden = false;
         
